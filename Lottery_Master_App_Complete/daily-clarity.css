@@ -1,0 +1,78 @@
+
+@media screen {
+ html body{font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif!important;color:#172720!important;background:#f6f4ed!important;font-size:17px!important;line-height:1.5!important}
+ html body p, html body .fine, html body .panel p, html body .stat-foot{color:#495d52!important;line-height:1.55!important}
+ html body .panel h3,html body .panel-title h3{font-weight:830!important;letter-spacing:-.03em!important;color:#153b2d!important;font-size:clamp(20px,2.2vw,25px)!important}
+ html body #content .intro h2{font-size:clamp(29px,4vw,43px)!important;line-height:1.12!important;font-weight:850!important;letter-spacing:-.035em!important}
+ html body #content .intro p{font-size:17px!important;line-height:1.65!important}
+ html body .stat-label,html body .sum-label{font-size:14.5px!important;letter-spacing:.015em!important;color:#475b50!important;font-weight:740!important;text-transform:none!important}
+ html body .stat-value,html body .inv-big{font-variant-numeric:tabular-nums!important;font-weight:850!important}
+ html body .ticket-info .ticket-name,html body .ticket-name{font-size:18px!important;font-weight:780!important;color:#193d2f!important;min-height:48px!important}
+ html body .ticket .field label,html body .ticket .entry-grid label,html body .settings-row strong,html body .inv-card label,html body .meta-field,html body .shift-flow-fields label{font-size:15px!important;font-weight:750!important;color:#33493d!important;letter-spacing:0!important}
+ html body .ticket .field input,html body .ticket input,html body .ticket select,html body .panel input:not([type=checkbox]),html body .panel select,html body .panel textarea{font-size:17px!important;min-height:48px!important}
+ html body .btn,html body .nav-button,html body .mini-btn,html body .panel button{font-size:15.5px!important;font-weight:760!important;line-height:1.35!important;min-height:46px!important}
+ html body .btn.primary{background:#146448!important;color:white!important}
+ html body button:focus-visible,html body a:focus-visible,html body input:focus-visible,html body select:focus-visible{outline:3px solid #218a65!important;outline-offset:3px!important}
+ html body .stat,html body .panel,html body .inv-card{border-radius:18px!important}
+ html body #desktopNav button[data-view=gallery],html body #topImport,html body #topExport,html body #soundToggle{display:none!important}
+ html body:not(.lm-settings-view) #cloudCopyKey,
+ html body:not(.lm-settings-view) #cloudCopyLink,
+ html body:not(.lm-settings-view) #cloudChangeKey,
+ html body:not(.lm-settings-view) #cloudCreate{display:none!important}
+ html body #fixSoldOutNow,html body #duplicateSheet,html body #addExtraBins,html body #shareSheetPdf,html body #uiSize,html body #importNotice{display:none!important}
+ html body #content .stats .stat:nth-child(3),html body #content .stats .stat:nth-child(4){display:none!important}
+ html body #content .stats{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+ html body .mobile-nav button[data-view=gallery]{display:none!important}
+ html body .mobile-nav button[data-view=settings]{font-weight:790!important}
+ html body #shiftToday{max-width:900px!important;padding:32px clamp(16px,4vw,38px) 40px!important;font-size:17px!important;line-height:1.55!important;background:#f6f4ed!important}
+ html body #shiftToday h1{font-size:clamp(32px,6vw,44px)!important;letter-spacing:-.05em!important;color:#162e24!important;font-weight:850!important;margin:3px 0 0!important}
+ html body #shiftToday .caption{font-size:13px!important;letter-spacing:.08em!important;color:#466356!important;font-weight:830!important}
+ html body #shiftToday .lm-shift-context{font-size:16px!important;font-weight:680!important;color:#53665a!important;margin:8px 0 14px!important}
+ html body #shiftToday .sales-card{border-radius:22px!important;background:linear-gradient(132deg,#126047,#0e493c)!important;border:1px solid #246d54!important;box-shadow:0 15px 35px #113e2d20!important;padding:25px!important}
+ html body #shiftToday .sales-card .caption,html body #shiftToday .sales-card .since{color:#e2f2e8!important}
+ html body #shiftToday .sales-card .amount{font-variant-numeric:tabular-nums!important;font-weight:850!important}
+ html body #shiftToday .shift-clock time{font-size:25px!important;font-weight:850!important}
+ html body #shiftToday .next-step{background:#e7f3e8!important;border:1px solid #c4ddcc!important;color:#174332!important;font-size:17px!important;line-height:1.5!important;padding:15px 18px!important}
+ html body #shiftToday .lm-daily-metrics{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:15px 0 20px!important}
+ html body #shiftToday .lm-daily-metrics>div{border:1px solid #d7e1d6;border-radius:17px;background:#fffefa;padding:17px 15px;min-width:0;box-shadow:0 5px 16px #15352608}
+ html body #shiftToday .lm-daily-metrics span{display:block;color:#506458;font-size:14.5px;font-weight:760;line-height:1.3}
+ html body #shiftToday .lm-daily-metrics strong{display:block;color:#124f3d;font-size:clamp(28px,4vw,37px);font-weight:900;line-height:1.15;margin-top:8px;font-variant-numeric:tabular-nums}
+ html body #shiftToday .actions{gap:12px!important}
+ html body #shiftToday .actions button{font-size:18px!important;min-height:63px!important;font-weight:830!important;border-radius:16px!important}
+ html body #shiftToday .lm-secondary-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:2px 0 20px}
+ html body #shiftToday .lm-secondary-actions button{background:#fffefa!important;color:#18553e!important;border:1.5px solid #adcab6!important;font-weight:800!important;min-height:56px!important;font-size:16px!important;border-radius:15px!important}
+ html body #shiftToday .sold-label{font-size:15px!important;font-weight:850!important;color:#264938!important;letter-spacing:.07em!important}
+ html body #shiftToday .price-list>div{border:1px solid #dee6dc!important;box-shadow:0 2px 7px #20352508!important;font-size:16px!important}
+ html body #shiftToday .price-list>div span{font-weight:730!important;color:#385748!important}
+ html body #shiftToday .price-list>div strong{font-size:21px!important;color:#12533e!important;font-weight:860!important}
+ html body .lm-extra-settings{margin-top:22px;padding:21px!important}
+ html body .lm-extra-settings .lm-extra-summary{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:11px;padding:8px 18px 22px}
+ html body .lm-extra-settings .lm-extra-summary>div{background:#f0f6ee;border:1px solid #d6e4d7;border-radius:13px;padding:15px;min-width:0}
+ html body .lm-extra-settings .lm-extra-summary span{font-size:14px;color:#4e6556;font-weight:730;line-height:1.4;display:block}
+ html body .lm-extra-settings .lm-extra-summary strong{font-size:30px;color:#14543f;font-weight:850;line-height:1.4}
+ html body .lm-extra-settings .lm-extra-tools{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;padding:0 18px 20px}
+ html body .lm-extra-settings .lm-extra-tools button{text-align:left;justify-content:flex-start;min-height:53px!important}
+ html body .settings-row{gap:18px!important;align-items:center!important;padding:17px 0!important}
+ html body .settings-row p{font-size:15.5px!important}
+ html body .settings-row strong{font-size:17px!important}
+ @media(max-width:730px){
+  html body #shiftToday{padding:24px 15px 34px!important}
+  html body #shiftToday .lm-daily-metrics{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+  html body #shiftToday .lm-daily-metrics>div:last-child{grid-column:1/-1}
+  html body #shiftToday .lm-daily-metrics strong{font-size:32px!important}
+  html body .lm-extra-settings .lm-extra-summary{grid-template-columns:repeat(2,minmax(0,1fr))}
+  html body .lm-extra-settings .lm-extra-tools{grid-template-columns:1fr}
+  html body .mobile-nav button{font-size:13px!important;min-height:58px!important;font-weight:730!important}
+  html body .ticket .field label{font-size:15px!important}
+  html body #content .stats{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+  html body .settings-row{align-items:stretch!important}
+  html body #shiftToday .lm-secondary-actions button{font-size:15px!important}
+ }
+ @media(max-width:420px){
+  html body #shiftToday .lm-daily-metrics span{font-size:13.5px!important}
+  html body #shiftToday .lm-secondary-actions{gap:8px}
+  html body #shiftToday .lm-secondary-actions button{padding:9px!important}
+  html body #content .stats .stat-value{font-size:30px!important}
+ }
+}
+@media print{.lm-daily-metrics,.lm-secondary-actions,.lm-extra-settings{display:none!important}}

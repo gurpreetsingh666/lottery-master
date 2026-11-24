@@ -1,0 +1,201 @@
+{
+  "project": "lottery-master-app",
+  "sourceDeployment": "dpl_Ctp2Fj6xKiZkN4idtwSift2NVTid",
+  "files": [
+    {
+      "file": "api/cloud-v2.js",
+      "size": 5114,
+      "sha256": "10e47c6ac9b302ebb6018d4b09ba0b470b88156233fda7afd058d35af5a5c8d7"
+    },
+    {
+      "file": "api/cloud-watch.js",
+      "size": 2173,
+      "sha256": "6f86761aca46a33f73a2739e0aa0a6f1766fc1bf23455b0ac3733ebd591b93d1"
+    },
+    {
+      "file": "api/cloud.js",
+      "size": 4983,
+      "sha256": "1befda233781fb22e1e6991fe97c743b4b0c349a9d4b162e4e935c1de5927ec6"
+    },
+    {
+      "file": "api/hoosier-games.js",
+      "size": 1706,
+      "sha256": "97407fdfbc323946746a9207aed29f8aad0b3931d7e6c53c1a4803d8fd62bfb5"
+    },
+    {
+      "file": "api/pin-auth.js",
+      "size": 8660,
+      "sha256": "ec8a80a3c4e14cad34e550f0855bcd51df31421c433baa5593ad9a1e4c8778bd"
+    },
+    {
+      "file": "assets/easy-ui.css",
+      "size": 4216,
+      "sha256": "31938d67d0e09a1c350f7afbeafa54bdea3df23e0e6383d21931cd01551d9a20"
+    },
+    {
+      "file": "assets/easy-ui.js",
+      "size": 5385,
+      "sha256": "1bfb60a56b0f0a6a9c3a42f5fe4d12ff24f48eb82ae928cf05a9130b850eac7e"
+    },
+    {
+      "file": "assets/shift-reports-finder.css",
+      "size": 3104,
+      "sha256": "dc9d042a646c9971ba16d37000a1f1635f269dc6b9092ad0ad66eb58ccf35039"
+    },
+    {
+      "file": "backstock-visibility.css",
+      "size": 1215,
+      "sha256": "9e04ab59f2de730c98fa20da56c56e59dd1e00d217db9f9359068cb19b0a72fc"
+    },
+    {
+      "file": "build-original.cjs",
+      "size": 2120,
+      "sha256": "e6479e3709e502c5210864dc1b09675b0876d9faef7741b04de6de7ff1d841fc"
+    },
+    {
+      "file": "build-pin.cjs",
+      "size": 1432,
+      "sha256": "d75b3c382e6862827d6180dbda4962c25f2bb9acbbe76d5a3002d0c1ba25020f"
+    },
+    {
+      "file": "build-preclarity.cjs",
+      "size": 1771,
+      "sha256": "f0145a67f049d0539f6ce6d2a47179c9feafdafe425a24cb4f38292f307ce5b5"
+    },
+    {
+      "file": "build-premium.cjs",
+      "size": 441,
+      "sha256": "e755124c7ac17ecf1223ec7dec2578673af65775685e5e846534aaadf42757f5"
+    },
+    {
+      "file": "build-reference.cjs",
+      "size": 1076,
+      "sha256": "a237c554f2ab036a953ab8c991ac5841e0c91f37bd693ff6186248d022719081"
+    },
+    {
+      "file": "build.cjs",
+      "size": 6809,
+      "sha256": "00652dbe4f6ff4736141c3af26345138552bea03f9555821f467f4602af98bfa"
+    },
+    {
+      "file": "daily-clarity.css",
+      "size": 8606,
+      "sha256": "2ff077a763d12296171d065dae2683061c445c167da15bc771a243c6c2269b35"
+    },
+    {
+      "file": "index.html",
+      "size": 528729,
+      "sha256": "1d72d5f6f336cf9f026bd70322a28ebe5644f778e07be69272e8e752c8805e34"
+    },
+    {
+      "file": "live-sync.js",
+      "size": 4460,
+      "sha256": "701885441afbd829f3e347db04c94c1705dbfd2fef3b0c7c64d2ccd2dcb0024d"
+    },
+    {
+      "file": "package.json",
+      "size": 147,
+      "sha256": "7044e918275965a8e6e7b48344ded77888eec45178bdc26c7e51f7916a5736fa"
+    },
+    {
+      "file": "patch-live-sync.cjs",
+      "size": 1802,
+      "sha256": "4016c726e08254801d986f13408abb6e26e48b78f9d5cc4144649d9ab613fe5c"
+    },
+    {
+      "file": "pin-security.css",
+      "size": 2781,
+      "sha256": "c148a5c6803b16e4a016062e61e55c82d0243f0f859a0a4869738f117961a5da"
+    },
+    {
+      "file": "pin-security.js",
+      "size": 6867,
+      "sha256": "155c5f03f9bd56412aa48fae423a66300d98e70eec99e051600f26420cf78738"
+    },
+    {
+      "file": "premium-operations.css",
+      "size": 1448,
+      "sha256": "000ff6003cc4ae2e532727fa7248a3e0d17e80051d5afb0674908760b03dbd01"
+    },
+    {
+      "file": "reference-theme.css",
+      "size": 11020,
+      "sha256": "b3a1387490e300044a1cdf15d100cdd22df8163f688eeb5ffd2fff3edebe6a75"
+    },
+    {
+      "file": "reference-ui.js",
+      "size": 5122,
+      "sha256": "599f264c4d132c536382232001a6672e86051bc016cf5c6901f0fa83ee680df0"
+    },
+    {
+      "file": "shift-clock.js",
+      "size": 866,
+      "sha256": "fff6e7c7a5aeb9e61b4d3bcf9e66e3719394847550aff3c428a064d784450786"
+    },
+    {
+      "file": "shifts.css",
+      "size": 3106,
+      "sha256": "e8490316b8a8ceade9970efc60ef14bedd10df336c226c90894c56977a2100ef"
+    },
+    {
+      "file": "shifts.js",
+      "size": 6552,
+      "sha256": "7a2a931be3a21c0a155515abe096fc4d86fc5aaa8f28bde57b303e879061eee7"
+    },
+    {
+      "file": "vercel.json",
+      "size": 84,
+      "sha256": "572f8aa3d9f0e3baa483b317c95a34c9ecc0ffa90bea1aac70b96e9aa380722c"
+    },
+    {
+      "file": "public/backstock-visibility.css",
+      "size": 1215,
+      "sha256": "9e04ab59f2de730c98fa20da56c56e59dd1e00d217db9f9359068cb19b0a72fc"
+    },
+    {
+      "file": "public/daily-clarity.css",
+      "size": 8606,
+      "sha256": "2ff077a763d12296171d065dae2683061c445c167da15bc771a243c6c2269b35"
+    },
+    {
+      "file": "public/easy-ui.css",
+      "size": 4216,
+      "sha256": "31938d67d0e09a1c350f7afbeafa54bdea3df23e0e6383d21931cd01551d9a20"
+    },
+    {
+      "file": "public/easy-ui.js",
+      "size": 5385,
+      "sha256": "1bfb60a56b0f0a6a9c3a42f5fe4d12ff24f48eb82ae928cf05a9130b850eac7e"
+    },
+    {
+      "file": "public/index.html",
+      "size": 560591,
+      "sha256": "d6816ee04bb8578a7878e125c553ed7134c9b877999e9422153ec31b8e234dd6"
+    },
+    {
+      "file": "public/pin-security.css",
+      "size": 2781,
+      "sha256": "c148a5c6803b16e4a016062e61e55c82d0243f0f859a0a4869738f117961a5da"
+    },
+    {
+      "file": "public/pin-security.js",
+      "size": 6894,
+      "sha256": "5131b5d7183f2d86cea931e671359213d3241cea3cf939097d7c32c2175d02ee"
+    },
+    {
+      "file": "public/premium-operations.css",
+      "size": 1448,
+      "sha256": "000ff6003cc4ae2e532727fa7248a3e0d17e80051d5afb0674908760b03dbd01"
+    },
+    {
+      "file": "public/shift-reports-finder.css",
+      "size": 3104,
+      "sha256": "dc9d042a646c9971ba16d37000a1f1635f269dc6b9092ad0ad66eb58ccf35039"
+    },
+    {
+      "file": "README_FIRST.txt",
+      "size": 1231,
+      "sha256": "4350de17505f7ea821743db063f494e7e67cf123c1c533e300787afc4dffe256"
+    }
+  ]
+}

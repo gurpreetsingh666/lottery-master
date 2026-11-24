@@ -1,0 +1,23 @@
+html.lm-pin-locked body>*:not(#lm-pin-shield){visibility:hidden!important;pointer-events:none!important}
+html.lm-pin-locked body{overflow:hidden!important}
+#lm-pin-shield{visibility:visible!important;position:fixed;inset:0;overflow:auto;z-index:2147483646;display:flex;align-items:center;justify-content:center;padding:22px;background:radial-gradient(circle at 10% 0%,#16365c 0,transparent 45%),linear-gradient(135deg,#07111e 0%,#102742 100%);font-family:system-ui,-apple-system,Segoe UI,sans-serif!important;color:#1b2d48!important}
+#lm-pin-shield *{box-sizing:border-box}
+.lm-pin-card{width:min(100%,430px);border-radius:23px;background:#fff;box-shadow:0 24px 68px #02071399;padding:28px 28px 24px;color:#152c48}
+.lm-pin-logo{display:grid;place-items:center;width:52px;height:52px;border-radius:14px;background:linear-gradient(135deg,#0b72ec,#1645a1);color:#fff;font-weight:900;font-size:19px;margin-bottom:16px}
+.lm-pin-kicker{font-size:11px;letter-spacing:1.8px;color:#3672b1;font-weight:800}
+.lm-pin-card h1{font-size:26px;line-height:1.25;margin:12px 0;color:#101d34!important}
+.lm-pin-help{font-size:15px;color:#52657f;line-height:1.45;margin:0 0 18px}
+.lm-pin-label{display:block;font-size:13px;font-weight:750;margin:14px 0 12px;color:#203850}
+.lm-pin-label input,.lm-pin-label select{display:block;width:100%;font:inherit;font-size:21px;font-weight:600;letter-spacing:2px;padding:13px;border:1.5px solid #c4d0e1;border-radius:12px;margin-top:7px;background:#f8fafd;color:#10213b;outline:none}
+.lm-pin-label select{letter-spacing:0;font-size:16px}
+.lm-pin-label input:focus,.lm-pin-label select:focus{border-color:#1378ed;box-shadow:0 0 0 3px #2178f52b}
+.lm-pin-main,.lm-pin-link{width:100%;border:0;border-radius:12px;font-size:15px;font-weight:750;cursor:pointer;padding:14px;margin:9px 0 1px}
+.lm-pin-main{background:#1269d4;color:white;box-shadow:0 5px 14px #1a61aa39}
+.lm-pin-main:disabled,.lm-pin-link:disabled{opacity:.55;cursor:wait}
+.lm-pin-link{background:#ecf3ff;color:#1251a2}
+#lm-pin-error{min-height:18px;font-size:13px;line-height:1.45;color:#b92930;font-weight:650;margin:8px 0}
+.lm-pin-foot{border-top:1px solid #e4eaf2;padding-top:14px;margin-top:12px;color:#758498;font-size:12px;line-height:1.55;text-align:center}
+.lm-pin-spin{width:26px;height:26px;border:3px solid #d8e6fa;border-top-color:#1965c8;border-radius:50%;animation:lm-spin .75s linear infinite;margin:18px auto}
+@keyframes lm-spin{to{transform:rotate(360deg)}}
+#lm-pin-settings{position:fixed;z-index:2147483645;right:16px;bottom:18px;border:1px solid #8db3df;background:#0e468f;color:white;border-radius:11px;padding:11px 15px;font:700 14px system-ui;box-shadow:0 4px 17px #092c54a6;cursor:pointer}
+@media(max-width:430px){.lm-pin-card{padding:24px 20px}.lm-pin-card h1{font-size:23px}}

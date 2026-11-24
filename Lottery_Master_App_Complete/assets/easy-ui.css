@@ -1,0 +1,38 @@
+/* Lottery Master Easy UI: purely visual; no changes to scanner, shift, or cloud calculations. */
+#lm-easy-ui{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;box-sizing:border-box;color:#f4f8ff;background:linear-gradient(125deg,#0b1c39,#113b62);border:1px solid #2c5979;border-radius:20px;padding:18px;margin:12px auto 16px;max-width:1150px;box-shadow:0 9px 26px #071e341f;}
+#lm-easy-ui *,#lm-easy-ui *::before,#lm-easy-ui *::after{box-sizing:border-box;}
+#lm-easy-ui .lm-eyebrow{font-size:11px;letter-spacing:1.4px;font-weight:800;color:#8bd9ee;margin:0 0 4px;}
+#lm-easy-ui .lm-head{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;}
+#lm-easy-ui h2{font-size:22px;line-height:1.2;font-weight:800;margin:0 0 5px;color:white;}
+#lm-easy-ui p{font-size:13px;color:#c9dcee;margin:0;line-height:1.4;}
+#lm-easy-ui .lm-tog{border:1px solid #6e93ae;background:transparent;color:#e6f5ff;border-radius:10px;min-height:38px;padding:6px 12px;font-size:13px;cursor:pointer;}
+#lm-easy-ui .lm-actions{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:9px;margin-top:16px;}
+#lm-easy-ui .lm-action{border:1px solid #b6d7ff;background:#edf6ff;color:#0b2851;border-radius:14px;min-height:80px;padding:12px 8px;font-weight:800;font-size:15px;cursor:pointer;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:4px;line-height:1.2;text-align:center;box-shadow:0 3px 0 #abc7e5;}
+#lm-easy-ui .lm-action:active{transform:translateY(2px);box-shadow:0 1px 0 #abc7e5;}
+#lm-easy-ui .lm-action:focus-visible,#lm-easy-ui .lm-sub:focus-visible{outline:3px solid #f7cf51;outline-offset:2px;}
+#lm-easy-ui .lm-action .lm-icon{font-size:22px;line-height:1.1;}
+#lm-easy-ui .lm-primary{background:#37d4bd;border-color:#71ead5;color:#063b39;box-shadow:0 3px 0 #168b7b;}
+#lm-easy-ui .lm-subactions{display:flex;gap:8px;margin-top:14px;flex-wrap:wrap;}
+#lm-easy-ui .lm-sub{font:600 13px system-ui,-apple-system,sans-serif;background:#163c60;border:1px solid #5d85a4;border-radius:999px;padding:9px 12px;min-height:40px;color:#f2f9ff;cursor:pointer;}
+#lm-easy-ui .lm-status{font-size:12px;min-height:17px;margin-top:10px;color:#d7effc;}
+#lm-easy-ui .lm-help{margin-top:11px;padding:12px;background:#15365a;border:1px solid #446584;border-radius:12px;font-size:13px;line-height:1.5;color:#ebf6ff;}
+#lm-easy-ui.lm-min .lm-actions,#lm-easy-ui.lm-min .lm-subactions,#lm-easy-ui.lm-min .lm-help{display:none;}
+@media(max-width:680px){#lm-easy-ui{margin:8px 8px 14px;padding:15px 12px;border-radius:16px;}#lm-easy-ui h2{font-size:20px;}#lm-easy-ui .lm-actions{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;}#lm-easy-ui .lm-action{min-height:75px;font-size:16px;}#lm-easy-ui .lm-subactions{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));}#lm-easy-ui .lm-sub{font-size:12px;padding:9px 4px;}body button:not(#lm-easy-ui button),body input:not([type=checkbox]):not([type=radio]),body select{touch-action:manipulation;}}
+@media print{#lm-easy-ui{display:none!important;}}
+#lm-easy-ui{background:#142d48;border:1px solid #29465e;border-radius:14px;box-shadow:none}
+#lm-easy-ui .lm-head{align-items:center}
+#lm-easy-ui h2{font-size:1.25rem;margin:0;letter-spacing:-.02em}
+#lm-easy-ui .lm-actions,#lm-easy-ui .lm-subactions{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.5rem}
+#lm-easy-ui .lm-action{min-height:48px;border-radius:8px;font-size:1rem;box-shadow:none;background:#eaf0f6;color:#17324d}
+#lm-easy-ui .lm-primary{background:#9de9db;border-color:#9de9db;color:#093b33}
+#lm-easy-ui .lm-sub,#lm-easy-ui .lm-tog{min-height:44px;font-size:.875rem;border-radius:8px}
+#lm-easy-ui .lm-status:empty{display:none}
+#lm-easy-ui [hidden]{display:none}
+@media(max-width:400px){#lm-easy-ui .lm-action{padding:8px 4px;font-size:.94rem}}
+#lm-easy-ui[hidden]{display:none}
+#lm-easy-ui .shift-hint{margin:.35rem 0 0;font-size:1rem}
+#lm-easy-ui .lm-actions{display:flex;flex-wrap:wrap}
+#lm-easy-ui .lm-action{flex:1 1 9rem;min-height:52px}
+#lm-easy-ui details{margin-top:.5rem}
+#lm-easy-ui summary{cursor:pointer;padding:.75rem 0;color:#e9f2fa;font-weight:600}
+#lm-easy-ui .lm-subactions{margin-top:0;grid-template-columns:repeat(2,minmax(0,1fr))}

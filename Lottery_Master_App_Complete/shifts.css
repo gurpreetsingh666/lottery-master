@@ -1,0 +1,33 @@
+@media screen{
+body.show-shift-today .main,body.show-shift-today .app,body.show-shift-today{background:#f6f3ec!important}
+body.show-shift-today .main::before,body.show-shift-today .topbar,body.show-shift-today #lm-easy-ui{display:none!important}
+#shiftToday{display:block;box-sizing:border-box;position:relative;max-width:740px;margin:auto;padding:36px 24px 32px;background:#f6f3ec;color:#141820;font:500 16px/1.35 system-ui,sans-serif}
+#shiftToday[hidden],#shiftMore[hidden]{display:none!important}
+#shiftToday *{box-sizing:border-box}
+#shiftToday h1{margin:8px 0 18px;font:720 36px/1.25 system-ui;color:#141820;letter-spacing:-1.4px}
+#shiftToday .caption{margin:0;color:#5a6371;font:650 12px/1.5 system-ui;letter-spacing:1.5px;text-transform:uppercase}
+#shiftToday .sales-card{background:#10684f;color:white;border-radius:24px;padding:24px}
+#shiftToday .sales-card .caption,#shiftToday .since{color:#d0e5df}
+#shiftToday .amount{display:block;font:700 clamp(38px,14vw,56px)/1.24 system-ui;letter-spacing:-2px;margin:10px 0 12px;overflow-wrap:anywhere}
+#shiftToday .since{font:400 16px/1.4 system-ui;margin:0}
+#shiftToday .actions{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:16px 0}
+#shiftToday button,#shiftMore button{border:2px solid #151920;background:white;color:#151920;border-radius:16px;font:650 16px/1.2 system-ui;min-height:56px;cursor:pointer;padding:8px}
+#shiftToday button[data-do=scan]{background:#151920;color:white}
+#shiftToday button:disabled{opacity:.52;cursor:default}
+#shiftToday button[data-do=add]{width:100%;background:#ebba4c;border-color:#ebba4c}
+#shiftToday .sold-label{margin:23px 0 15px}
+#shiftToday .price-list{display:grid;gap:10px}
+#shiftToday .price-list>div{display:flex;justify-content:space-between;align-items:center;min-height:62px;padding:12px 18px;border:1px solid #e2ddd1;border-radius:16px;background:white;font-weight:600}
+#shiftToday .price-list strong{font-size:20px}
+#shiftToday [data-do=ledger]{margin-top:16px;width:100%}
+#shiftMore{position:fixed;z-index:150;bottom:calc(78px + env(safe-area-inset-bottom));right:12px;padding:8px;background:white;border:1px solid #dedbd4;border-radius:16px;box-shadow:0 8px 30px #0002}
+#shiftMore button{display:block;width:100%;border:0}
+@media(max-width:850px){
+body.show-shift-today .main{padding:0!important;margin:0!important}
+body .mobile-nav{background:white!important;border:0!important;border-top:1px solid #e0dcd3!important;grid-template-columns:repeat(5,1fr)!important;box-shadow:none!important;border-radius:0!important;left:0!important;right:0!important;bottom:0!important;width:100%!important;gap:0!important;padding:5px 4px max(10px,env(safe-area-inset-bottom))!important}
+body .mobile-nav button[data-view=gallery]{display:none!important}
+body .mobile-nav button{flex:1;color:#5a6371!important;background:white!important;border:0!important;box-shadow:none!important;font:600 12px/1.3 system-ui!important;min-height:51px}
+body .mobile-nav button.active{color:#10684f!important}
+body .mobile-nav button svg{width:22px;height:22px}
+}}
+@media print{#shiftToday,#shiftMore{display:none!important}}
